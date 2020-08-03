@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background-color: red;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.artist-list {
+  background-color: darkgray;
+  margin-top: 30px;
+
+}
+
+p,
+h3,
+label {
+  color: aliceblue;
+
+}
+
+.albums-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(120, 196, 44);
+
+
+}
+
+form {
+  margin-top: 15px;
+}
+
+.home-link {
+  color: cornsilk;
+  text-decoration: none;
+  padding: 5px;
+  background-color: cornflowerblue;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid #000;
+  border-radius: 20%;
+  float: left;
+  margin-left: 15px;
+}
+
+.albums-item {
+  margin-top: 25px;
+  width: 250px;
+
+  margin-left: 15px;
+  text-align: center;
+  background-color: blue;
+}
+
+input {
+  margin-left: 10px;
+}
